@@ -1,4 +1,4 @@
-# Simulador de Sistema Operacional em C#- Versão Console
+# Simulador SO- Versão Console
 
 Este projeto é um **simulador completo de Sistema Operacional**, desenvolvido em **C# (versão console)**, com o objetivo de reproduzir os principais componentes internos de um SO real, como gerenciamento de processos, threads, memória, escalonamento, E/S, sistema de arquivos e métricas.
 
@@ -176,4 +176,4 @@ Este simulador foi desenvolvido com os seguintes objetivos:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/CarolineGrizante/SimuladorSO
