@@ -144,10 +144,10 @@ A pasta simulador contém **3 imagens** e **3 GIFs** demonstrando a execução e
 ![Tela principal do simulador](simulador/img1.png)  
 *Figura 1 — Carregando o arquivo texto.*
 
-![Visualização de memória e TLB](simulador/img2.png)  
+![Analise do simulador](simulador/img2.png)  
 *Figura 2 — Como o simulador analisa o arquivo texto.*
 
-![Fila de prontos e escalonador](simulador/img3.png)  
+![Relatório do simulador](simulador/img3.png)  
 *Figura 3 — Relatório gerado pelo arquivo texto.*
 
 ### Animações (GIFs)
