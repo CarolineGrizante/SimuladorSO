@@ -142,23 +142,23 @@ Arquivos:
 
 A pasta simulador contém **3 imagens** e **3 GIFs** demonstrando a execução e as telas do simulador. 
 ![Tela principal do simulador](simulador/img1.png)  
-*Figura 1 — Tela principal com lista de processos e logs.*
+*Figura 1 — Carregando o arquivo texto.*
 
 ![Visualização de memória e TLB](simulador/img2.png)  
-*Figura 2 — Painel de memória mostrando molduras e entradas de TLB.*
+*Figura 2 — Como o simulador analisa o arquivo texto.*
 
 ![Fila de prontos e escalonador](simulador/img3.png)  
-*Figura 3 — Fila de prontos e informações do escalonador.*
+*Figura 3 — Relatório gerado pelo arquivo texto.*
 
 ### Animações (GIFs)
 ![Execução passo-a-passo](simulador/gif1.gif)  
-*GIF 1 — Simulação passo-a-passo mostrando ticks do relógio e trocas de contexto.*
+*GIF 1 — Carregando o arquivo texto.*
 
-![Acesso a dispositivo de E/S](simulador/gif2.gif)  
-*GIF 2 — Requisição e atendimento de E/S (disco/teclado).*
+![Gerenciando um processo](simulador/gif2.gif)  
+*GIF 2 — Adicionando e gerenciando um novo processo.*
 
-![Carga de workload automática](simulador/gif3.gif)  
-*GIF 3 — Carregador de workload executando cenário de teste automático.*
+![Gerenciando uma thread](simulador/gif3.gif)  
+*GIF 3 — Criando e gerenciando uma nova thread.*
 
 ---
 ## 🎯 Objetivo do Projeto
