@@ -1,0 +1,179 @@
+# Simulador de Sistema Operacional em C#- Versão Console
+
+Este projeto é um **simulador completo de Sistema Operacional**, desenvolvido em **C# (versão console)**, com o objetivo de reproduzir os principais componentes internos de um SO real, como gerenciamento de processos, threads, memória, escalonamento, E/S, sistema de arquivos e métricas.
+
+A estrutura do projeto é totalmente modular, permitindo fácil compreensão e expansão do simulador.
+
+---
+
+## 🧩 Estrutura Geral do Projeto
+
+A solução é dividida em **10 módulos principais**, cada um representando um subsistema fundamental do Sistema Operacional.
+
+---
+
+## ✅ 1. Núcleo 
+Parte central do simulador — o “motor” do SO.
+
+Arquivos:
+- `Kernel.cs`
+- `Relogio.cs`
+- `RegistradorDeEventos.cs`
+- `Configuracoes.cs`
+- `CarregadorWorkload.cs`
+
+---
+
+## ✅ 2. Processos 
+Gerenciamento de processos.
+
+Arquivos:
+- `Processo.cs`
+- `PCB.cs`
+- `EstadoProcesso.cs`
+- `GerenciadorDeProcessos.cs`
+
+---
+
+## ✅ 3. Threads 
+Subsistema de gerenciamento de threads.
+
+Arquivos:
+- `ThreadSimulada.cs`
+- `TCB.cs`
+- `EstadoThread.cs`
+- `GerenciadorDeThreads.cs`
+
+---
+
+## ✅ 4. Escalonamento 
+Algoritmos de escalonamento de CPU.
+
+Arquivos:
+- `IAlgoritmoEscalonamento.cs`
+- `FCFS.cs`
+- `RoundRobin.cs`
+- `PrioridadePreemptivo.cs`
+- `PrioridadeNaoPreemptivo.cs`
+- `FilaProntos.cs`
+- `Escalonador.cs`
+- `TrocaDeContexto.cs`
+
+---
+
+## ✅ 5. Memória 
+Modelo de memória virtual e física.
+
+Arquivos:
+- `GerenciadorDeMemoria.cs`
+- `Pagina.cs`
+- `TabelaDePaginas.cs`
+- `Moldura.cs`
+- `TabelaDeMolduras.cs`
+- `PoliticaAlocacao.cs`
+- `EntradaTLB.cs`
+- `TLB.cs`
+
+---
+
+## ✅ 6. Entrada e Saída 
+Simulação de dispositivos e operações de E/S.
+
+Arquivos:
+- `IDispositivo.cs`
+- `DispositivoDeBloco.cs`
+- `DispositivoDeCaractere.cs`
+- `RequisicaoES.cs`
+- `GerenciadorES.cs`
+- `Interrupcao.cs`
+
+---
+
+## ✅ 7. Sistema de Arquivos 
+Mini File System simulado.
+
+Arquivos:
+- `SistemaDeArquivos.cs`
+- `INode.cs` ou `FCB.cs`
+- `EntradaArquivo.cs`
+- `EntradaDiretorio.cs`
+- `ManipuladorArquivo.cs`
+- `TabelaDeAlocacao.cs`
+- `CacheDeBlocos.cs` *
+
+---
+
+## ✅ 8. Métricas 
+Sistema de coleta e registro de métricas do SO.
+
+Arquivos:
+- `GerenciadorDeMetricas.cs`
+- `MetricasProcesso.cs`
+- `MetricasDispositivo.cs`
+- `MetricasMemoria.cs`
+
+---
+
+## ✅ 9. Interface (Menus) 
+Menus de interação pelo console.
+
+Arquivos:
+- `MenuPrincipal.cs`
+- `MenuProcessos.cs`
+- `MenuThreads.cs`
+- `MenuEscalonamento.cs`
+- `MenuMemoria.cs`
+- `MenuES.cs`
+- `MenuArquivo.cs`
+- `MenuMetricas.cs`
+- `MenuConfiguracoes.cs`
+
+---
+
+## ✅ 10. Utilitários 
+Funções auxiliares.
+
+Arquivos:
+- `GeradorIDs.cs`
+- `GeradorAleatorio.cs`
+
+---
+## 📷 Imagens da Aplicação
+
+A pasta `simulador/` contém **3 imagens estáticas** e **3 GIFs** demonstrando a execução e as telas do simulador. 
+![Tela principal do simulador](simulador/screenshot1.png)  
+*Figura 1 — Tela principal com lista de processos e logs.*
+
+![Visualização de memória e TLB](simulador/screenshot2.png)  
+*Figura 2 — Painel de memória mostrando molduras e entradas de TLB.*
+
+![Fila de prontos e escalonador](simulador/screenshot3.png)  
+*Figura 3 — Fila de prontos e informações do escalonador.*
+
+### Animações (GIFs)
+![Execução passo-a-passo](simulador/animation1.gif)  
+*GIF 1 — Simulação passo-a-passo mostrando ticks do relógio e trocas de contexto.*
+
+![Acesso a dispositivo de E/S](simulador/animation2.gif)  
+*GIF 2 — Requisição e atendimento de E/S (disco/teclado).*
+
+![Carga de workload automática](simulador/animation3.gif)  
+*GIF 3 — Carregador de workload executando cenário de teste automático.*
+
+---
+## 🎯 Objetivo do Projeto
+
+Este simulador foi desenvolvido com os seguintes objetivos:
+
+- Demonstrar de forma didática como funciona o interior de um Sistema Operacional.
+- Implementar uma arquitetura modular semelhante a sistemas reais.
+- Permitir experimentação e estudos de algoritmos de escalonamento, memória e E/S.
+- Facilitar o aprendizado através de menus e simulação interativa.
+
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repo.git
