@@ -140,24 +140,24 @@ Arquivos:
 ---
 ## 📷 Imagens da Aplicação
 
-A pasta `simulador/` contém **3 imagens estáticas** e **3 GIFs** demonstrando a execução e as telas do simulador. 
-![Tela principal do simulador](simulador/screenshot1.png)  
+A pasta simulador contém **3 imagens** e **3 GIFs** demonstrando a execução e as telas do simulador. 
+![Tela principal do simulador](simulador/img1.png)  
 *Figura 1 — Tela principal com lista de processos e logs.*
 
-![Visualização de memória e TLB](simulador/screenshot2.png)  
+![Visualização de memória e TLB](simulador/img2.png)  
 *Figura 2 — Painel de memória mostrando molduras e entradas de TLB.*
 
-![Fila de prontos e escalonador](simulador/screenshot3.png)  
+![Fila de prontos e escalonador](simulador/img3.png)  
 *Figura 3 — Fila de prontos e informações do escalonador.*
 
 ### Animações (GIFs)
-![Execução passo-a-passo](simulador/animation1.gif)  
+![Execução passo-a-passo](simulador/gif1.gif)  
 *GIF 1 — Simulação passo-a-passo mostrando ticks do relógio e trocas de contexto.*
 
-![Acesso a dispositivo de E/S](simulador/animation2.gif)  
+![Acesso a dispositivo de E/S](simulador/gif2.gif)  
 *GIF 2 — Requisição e atendimento de E/S (disco/teclado).*
 
-![Carga de workload automática](simulador/animation3.gif)  
+![Carga de workload automática](simulador/gif3.gif)  
 *GIF 3 — Carregador de workload executando cenário de teste automático.*
 
 ---
