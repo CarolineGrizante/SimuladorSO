@@ -142,23 +142,23 @@ Arquivos:
 
 A pasta simulador contém **3 imagens** e **3 GIFs** demonstrando a execução e as telas do simulador. 
 
-![Tela principal do simulador](simulador/img1.png)  
+![Tela principal do simulador](Simulador/img1.png)  
 *Figura 1 — Carregando o arquivo texto.*
 
-![Analise do simulador](simulador/img2.png)  
+![Analise do simulador](Simulador/img2.png)  
 *Figura 2 — Como o simulador analisa o arquivo texto.*
 
-![Relatório do simulador](simulador/img3.png)  
+![Relatório do simulador](Simulador/img3.png)  
 *Figura 3 — Relatório gerado pelo arquivo texto.*
 
 ### Animações (GIFs)
-![Execução passo-a-passo](simulador/gif1.gif)  
+![Execução passo-a-passo](Simulador/gif1.gif)  
 *GIF 1 — Carregando o arquivo texto.*
 
-![Gerenciando um processo](simulador/gif2.gif)  
+![Gerenciando um processo](Simulador/gif2.gif)  
 *GIF 2 — Adicionando e gerenciando um novo processo.*
 
-![Gerenciando uma thread](simulador/gif3.gif)  
+![Gerenciando uma thread](Simulador/gif3.gif)  
 *GIF 3 — Criando e gerenciando uma nova thread.*
 
 ---
